@@ -27,7 +27,7 @@ export function Navbar() {
   const navItems = [
     { href: "/", label: "Home", icon: Home },
     { href: "/archive", label: "Archives", icon: Newspaper },
-  ];
+
 
   const closeSheet = () => setIsOpen(false);
 
